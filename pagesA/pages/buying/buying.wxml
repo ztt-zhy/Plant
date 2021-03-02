@@ -1,0 +1,46 @@
+<!-- 轮播图-->
+<image  src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=556243087,3229004075&fm=26&gp=0.jpg" class="aaa"></image>
+<!-- 轮播图-->
+
+<!-- 文字介绍 -->
+<view class="ziti">
+	<text class="p1">红宝石（Sedeveria pink ruby）叶片为细长匙状，前端较肥厚、斜尖，呈莲花状紧密排列</text>
+	<text class="p2">分享有赏，好友下单后可得 5元 现金奖励</text>
+
+	<!-- 价格 -->
+	<view class="pri">
+		<text class="t1">￥23</text>
+		<text class="t2">￥5.2</text>
+		<text class="t3">8人已买</text>
+	</view>
+	<view class="w">
+		<text class="w1">微信圈子</text>
+		<text class="w2">好物圈 </text>
+	</view>
+</view>
+<!-- 文字介绍 -->
+<!-- 分割线 -->
+<view class="xian"></view>
+<!-- 分割线 -->
+
+
+<!-- 商品介绍 -->
+<view class="jieshao">
+
+	<image src="https://img.alicdn.com/imgextra/i3/2612766675/O1CN01l8ZC5b1zBCJ2spyZz_!!2612766675.jpg"></image>
+	<image src="https://img.alicdn.com/imgextra/i1/2612766675/O1CN01nZhhif1zBCJEHZYsu_!!2612766675.jpg"></image>
+	<image src="https://img.alicdn.com/imgextra/i4/2612766675/O1CN01jAtTsS1zBCJ2spyaE_!!2612766675.jpg"></image>
+	<image src="https://img.alicdn.com/imgextra/i2/2612766675/O1CN01vrIwVK1zBCJCSQTac_!!2612766675.jpg_760x760Q90s50.jpg_.webp"></image>
+	<image src="https://img.alicdn.com/imgextra/i4/2612766675/O1CN01g0KaSz1zBCJ2sq6sy_!!2612766675.jpg_760x760Q90s50.jpg_.webp"></image>
+	<image src="https://img.alicdn.com/imgextra/i1/2612766675/O1CN01p77efO1zBCJAuKcd5_!!2612766675.jpg_760x760Q90s50.jpg_.webp"></image>
+	<image src="https://img.alicdn.com/imgextra/i3/2612766675/O1CN01865yGD1zBCJAuLQVR_!!2612766675.jpg_760x760Q90s50.jpg_.webp"></image>
+	<image src="https://img.alicdn.com/imgextra/i2/2612766675/O1CN012Jy8x71zBCJAuLYod_!!2612766675.jpg_760x760Q90s50.jpg_.webp"></image>
+	<image src="https://img.alicdn.com/imgextra/i4/2612766675/O1CN01XLaVD01zBCJCSOjXA_!!2612766675.jpg_760x760Q90s50.jpg_.webp"></image>
+	<image src="https://img.alicdn.com/imgextra/i1/2612766675/O1CN016TmKT81zBCJEj9wn0_!!2612766675.jpg_760x760Q90s50.jpg_.webp"></image>
+	<image src="https://img.alicdn.com/tfs/TB1k9XsQpXXXXXLXpXXXXXXXXXX-750-368.png_760x760Q90s50.jpg_.webp"></image>
+</view>
+<!-- 分割线 -->
+<view class="xian"></view>
+<!-- 分割线 -->
+
+

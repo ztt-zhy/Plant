@@ -1,0 +1,21 @@
+<view>
+  <!-- 小程序里的组件 已封装好的 -->
+  <!-- bindgetuserinfo用户点击该按钮时，会返回获取到的数据 -->
+  <image src="../../icon_png/222.png" class="aaa"></image>
+  <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="btn1">
+    用户授权登录
+  </button>
+
+</view>
+<!-- 默认不显示 -->
+<view wx:if="{{userInfo.nickName}}" class="xinxi">
+  <text>
+    昵称：{{userInfo.nickName}}
+  </text>
+  <text>
+    <!-- 性别： {{userInfo.gender==1?'男': '女'}} -->
+  </text>
+  <view>
+    <image src="{{userInfo.avatarUrl}}"></image>
+  </view>
+</view>

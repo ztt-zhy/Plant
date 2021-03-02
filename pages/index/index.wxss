@@ -1,0 +1,350 @@
+.around {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* 放大镜 */
+.find {
+  z-index: 2;
+  position: absolute;
+  top: 20rpx;
+  color: darkgrey;
+  right: 105rpx;
+}
+
+/* 搜索框 */
+.serch {
+  width: 80%;
+  height: 60rpx;
+  background: #fff;
+  opacity: 0.9;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50rpx;
+  top: 10rpx;
+}
+
+.serch input {
+  border-radius: 10rpx;
+  text-indent: 40rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+/* 轮播小广告 */
+.ban {
+  width: 70%;
+  height: 40rpx;
+  position: absolute;
+  z-index: 1;
+  text-indent: 20rpx;
+  top: 80rpx;
+  opacity: 0.5;
+  background: rgb(13, 12, 12);
+  text-align: center;
+  color: #fff;
+  border-radius: 50rpx;
+}
+
+.ban image {
+  height: 40rpx;
+  width: 50rpx;
+  border-radius: 50%;
+  line-height: 40rpx;
+}
+
+.ban text {
+  font-size: 28rpx;
+}
+
+
+/* 轮播图 */
+swiper {
+  width: 100%;
+  height: 420rpx;
+  position: relative;
+}
+
+/* 轮播图详情图 */
+swiper image {
+  width: 100%;
+  height: 420rpx;
+}
+
+
+/* 九宫格 */
+.jj {
+  font-size: 28rpx;
+}
+
+/* 宣传广告 */
+.banner image {
+  width: 100%;
+  height: 300rpx;
+}
+
+/* 限时秒杀 */
+.xxtime {
+  width: 100%;
+  height: 100rpx;
+}
+
+.xxtime p {
+  line-height: 100rpx;
+  padding: 100rpx;
+  color: dimgrey;
+}
+
+/* 限时秒杀 */
+.box {
+  width: 100%;
+  height: 300rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxs {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+}
+
+.boxs image {
+  width: 280rpx;
+  height: 280rpx;
+  border-radius: 50rpx;
+}
+
+/* 文字区域 */
+.fbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 20rpx;
+}
+
+.p1 {
+  font-size: 26rpx;
+}
+
+/* 倒计时 */
+.p3 {
+  color: #f82d09;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+}
+
+.sp1 {
+  font-size: 24rpx;
+  color: gray;
+  padding-right: 70rpx;
+  text-decoration: line-through;
+}
+
+.p5 {
+  width: 160rpx;
+  display: block;
+  background-color: red;
+  color: #fff;
+  border-radius: 50rpx;
+  margin: 10rpx;
+  text-align: center;
+  align-items: center;
+}
+
+/* 秒杀时间 */
+.item {
+  display: inline-block;
+  width: 44rpx;
+  margin-right: 10rpx;
+  color: #fff;
+  font-size: 24rpx;
+  text-align: center;
+  background-color: #f82d09;
+  border-radius: 4rpx;
+}
+
+/* 爆品推荐 */
+.hotPlant {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* 植物 */
+.Plant {
+  width: 48%;
+  height: 200px;
+  color: rgb(13, 12, 12);
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* 植物 */
+.Plant image {
+  width: 300rpx;
+  height: 300rpx;
+}
+
+.Plant view {
+  font-size: 26rpx;
+}
+
+.rrr {
+  color: red;
+}
+
+/* 疯狂砍价 */
+.discount {
+  display: flex;
+}
+
+.img1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.discount image {
+  width: 320rpx;
+  height: 290rpx;
+  padding-left: 40rpx;
+  padding-right: 30rpx;
+  border-radius: 10rpx;
+}
+
+.xxtime h5 {
+  line-height: 100rpx;
+  padding: 40rpx;
+  color: dimgrey;
+  font-weight: bold;
+}
+
+.v1 {
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pp1 {
+  font-size: 24rpx;
+  font-weight: bold;
+}
+
+.pp2 {
+  padding-top: 10rpx;
+  font-size: 24rpx;
+  color: gray;
+  padding-bottom: 15rpx;
+}
+
+.custom-button {
+  background-color: green;
+  border-radius: 34%;
+  color: #fff;
+  font-size: 24rpx;
+}
+
+.van-slider {
+  padding-top: 30rpx;
+}
+
+.pp3 {
+  padding-top: 30rpx;
+  color: #f82d09;
+  font-weight: bold;
+}
+
+.pp3 span {
+  font-size: 24rpx;
+  color: gray;
+  padding-right: 70rpx;
+  text-decoration: line-through;
+  padding-left: 20rpx;
+}
+
+
+/* 全民拼团 */
+.discount-all {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.discount-all image {
+  width: 100%;
+  height: 250rpx;
+}
+
+.discount-all p {
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.p2 {
+  color: dimgray;
+}
+
+.k {
+  width: 100rpx;
+  background-color: #f82d09;
+  color: #fff;
+  text-align: center;
+}
+
+.cc1 {
+  font-size: 40rpx;
+  color: #f82d09;
+  font-weight: bold;
+}
+
+.cc2 {
+  font-size: 24rpx;
+  color: gray;
+  padding-right: 70rpx;
+  text-decoration: line-through;
+}
+
+.cc3 {
+  width: 100rpx;
+  background-color: #f82d09;
+  color: #fff;
+  text-align: center;
+}
+
+/* 分享领卷 */
+.fen {
+  width: 100rpx;
+  height: 80rpx;
+  position: fixed;
+  z-index: 1;
+  right: 30rpx;
+  border-radius: 50%;
+  text-align: center;
+  top: 900rpx;
+  /* box-shadow: 20px 0px 30px 10px #b5efab inset; */
+}
+
+.fen image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 60%;
+}
+
+/* 商品列表 */
+/* 热卖商品植物 */
+.Plant image {
+  width: 320rpx;
+  height: 280rpx;
+}

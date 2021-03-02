@@ -1,0 +1,163 @@
+/* pages/Carts/carts.wxss */
+.container {
+  width: 100%;
+}
+
+.center_con {
+  width: 100%;
+  height: 90vh;
+  overflow: scroll;
+}
+
+.footer_con {
+  height: 10vh;
+}
+
+.carts_con {
+  width: 100%;
+}
+
+.carts_warpper {
+  width: 98%;
+  height: 280rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid #000; */
+  border-bottom: 2rpx solid #f6f6f6;
+}
+
+.catrs_left {
+  width: 30%;
+  height: 95%;
+  margin: 0rpx 10rpx;
+}
+
+.catrs_left image {
+  width: 100%;
+  height: 90%;
+  border-radius: 50rpx;
+}
+
+.carts_right {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-bettwen;
+  flex-direction: column;
+}
+
+.carts_right_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10rpx;
+}
+
+.carts_right_box_title {
+  width: 80%;
+  height: 100rpx;
+  margin-top: 5rpx;
+  /* border: 1px solid #000; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /* 几行后显示不开省略 */
+  -webkit-line-clamp: 1;
+  font-size: 30rpx;
+}
+
+.carts_right_box_del {
+  color: red;
+  width: 20%;
+  height: 100rpx;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  padding: 10rpx 15rpx;
+}
+
+.jiage {
+  color: red;
+  font-size: 30rpx;
+}
+
+/* 步进器 */
+.bujinqi {
+  width: 100%;
+  margin-top: 25rpx;
+  margin-left: 260rpx;
+  /* display: inline-block; */
+
+}
+
+.bujinqi text {
+  display: inline-block;
+
+  width: 50rpx;
+  text-align: center;
+}
+
+.cl1,
+.cl2 {
+  border: 1px solid rgb(168, 164, 164);
+}
+
+.van-swipe-cell__right {
+  /* text-align: center; */
+  width: 100%;
+  color: aliceblue;
+  background-color: red;
+  box-sizing: border-box;
+  padding: 55rpx 20rpx;
+}
+
+/* 底部结算 */
+.footer_con {
+  width: 100%;
+  height: 100rpx;
+  border-top: 2px solid #f6f6f6;
+}
+
+.footer_warpper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.footer_left {
+  width: 70%;
+  color: red;
+
+}
+
+.footer_right {
+  width: 30%;
+  height: 100%;
+  background-color: red;
+  text-align: center;
+  color: aliceblue;
+}
+
+.footer_right text {
+  line-height: 95rpx;
+}
+
+/* 空状态 */
+.bottom-button {
+  width: 260px;
+  height: 60px;
+  background-color: rgb(243, 98, 98);
+  border-radius: 8rpx;
+  font-size: 28rpx;
+  color: aliceblue;
+}
+
+.nullImg {
+  width: 100%;
+  height: 700rpx;
+}

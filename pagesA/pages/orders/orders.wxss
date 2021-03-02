@@ -1,0 +1,19 @@
+.box{
+  border-bottom: 4rpx solid gray;
+}
+.bao{
+  width: 100%;
+
+}
+.t1{
+  width: 100%;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.iii{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+}

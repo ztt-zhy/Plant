@@ -1,0 +1,45 @@
+/* 热门推荐 */
+.hotspot {
+  display: flex;
+  width: 100%;
+  font-size: 25rpx;
+}
+
+.img {
+  padding: 20rpx 10rpx;
+}
+
+.hotspot image {
+  width: 280rpx;
+  height: 230rpx;
+  border-radius: 25rpx;
+}
+
+/* 文字区域 */
+.zi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20rpx 30rpx;
+}
+/* 按钮 */
+.zi button{
+  font-size: 28rpx;
+  width: 50rpx;
+  border-radius: 25rpx;
+}
+.t1{
+  font-size: 26rpx;
+  text-indent: 4rpx;
+}
+.t2{
+  font-size: 25rpx;
+  color: red;
+}
+.tt{
+  width: 100rpx;
+  background:rgb(190, 187, 187);
+  text-align: center;
+  color: floralwhite;
+  border-radius: 25rpx;
+}

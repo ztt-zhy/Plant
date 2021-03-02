@@ -1,0 +1,83 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/myself/myself",
+    "pages/shop/shop",
+    "pages/login/login"
+  ],
+  "subPackages": [{
+    "root": "pagesA",
+    "pages": [
+      "pages/hot/hot",
+      "pages/discount/discount",
+      "pages/buying/buying",
+      "pages/biguanghuang/biguanghuang",
+      "pages/mostCady/mostCady",
+      "pages/order/order",
+      "pages/orders/orders"
+    ]
+  }],
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./icon_png/jiarufangjian-01.png",
+        "selectedIconPath": "./icon_png/jiarufangjian-01.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "分类",
+        "iconPath": "./icon_png/shezhi.png",
+        "selectedIconPath": "./icon_png/biaoqing.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "购物车",
+        "iconPath": "./icon_png/songliwu-01.png",
+        "selectedIconPath": "./icon_png/biaoqing.png"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "text": "我的",
+        "iconPath": "./icon_png/xihuan-01.png",
+        "selectedIconPath": "./icon_png/biaoqing.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#5d655f",
+    "navigationBarTitleText": "🌱多肉多🍀",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-search": "@vant/weapp/search/index",
+    "van-notice-bar": "@vant/weapp/notice-bar/index",
+    "van-count-down": "@vant/weapp/count-down/index",
+    "van-grid": "@vant/weapp/grid/index",
+    "van-grid-item": "@vant/weapp/grid-item/index",
+    "van-card": "@vant/weapp/card/index",
+    "van-slider": "@vant/weapp/slider/index",
+    "van-divider": "@vant/weapp/divider/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-tag": "@vant/weapp/tag/index",
+    "van-swipe-cell": "@vant/weapp/swipe-cell/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "van-share-sheet": "@vant/weapp/share-sheet/index",
+    "van-goods-action": "@vant/weapp/goods-action/index",
+    "van-goods-action-icon": "@vant/weapp/goods-action-icon/index",
+    "van-goods-action-button": "@vant/weapp/goods-action-button/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-action-sheet": "@vant/weapp/action-sheet/index",
+    "van-stepper": "@vant/weapp/stepper/index",
+    "van-empty": "@vant/weapp/empty/index" ,
+    "van-toast": "@vant/weapp/toast/index"
+
+  }
+}

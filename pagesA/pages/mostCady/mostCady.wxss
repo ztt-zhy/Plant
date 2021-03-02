@@ -1,0 +1,75 @@
+/* 轮播图 */
+.aaa {
+  width: 100%;
+  height: 500rpx;
+}
+
+/* 文字介绍 */
+.ziti {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 40rpx;
+}
+
+.p1 {
+  font-size: 28rpx;
+}
+
+.p2 {
+  font-size: 25rpx;
+  color: rgb(220, 28, 28);
+  padding: 30rpx 0;
+  font-weight: 600;
+}
+
+/* 价格 */
+.pri {
+  display: flex;
+  align-items: center;
+}
+
+.t1 {
+  color: rgb(219, 35, 35);
+  font-size: 48rpx;
+}
+
+.t2 {
+  color: gray;
+  text-decoration: line-through;
+  padding-left: 20rpx;
+}
+
+.t3 {
+  color: rgb(182, 184, 185);
+  font-size: 20rpx;
+  padding-left: 40rpx;
+}
+
+.w {
+  display: flex;
+  color: rgb(82, 80, 80);
+  font-size: 25rpx;
+  padding: 10rpx;
+  padding-top: 10rpx;
+}
+
+.w1 {
+  padding-right: 20rpx;
+}
+
+/* 分割线 */
+.xian {
+  width: 100%;
+  height: 15rpx;
+  background-color: rgb(235, 230, 230);
+}
+
+/* 商品介绍 */
+.jieshao image {
+  width: 100%;
+  display: block;
+}
+
+
+/* 购物车 */

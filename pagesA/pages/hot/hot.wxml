@@ -1,0 +1,14 @@
+<view class="hotspot">
+	<!-- 图片区域 -->
+	<view class="img">
+		<image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2321800477,1836111543&fm=26&gp=0.jpg"></image>
+	</view>
+	<!-- 文字区域 -->
+	<view class="zi">
+		<text class="t1"> 乙女心（Sedum pachyphyllum Rose）,景天科景天属的多肉植物，原产墨西哥。</text>
+		<!-- <text class="t1">多年生亚灌木，茎叶肉质，株高5-30厘米。叶片簇生于茎顶，圆柱状，淡绿色或淡灰蓝色，叶先端具红色，叶长3~4厘米。</text> -->
+		<!-- <text class="t2">花小，黄色。春秋为生长季，冬季气温保持在五度左右可安全越冬</text> -->
+    <text class="t2">2020-10-10 23:00:00</text>
+    <text class="tt">已过期</text>
+	</view>
+</view>

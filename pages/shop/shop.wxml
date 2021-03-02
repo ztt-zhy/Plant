@@ -1,0 +1,61 @@
+<!-- pages/Carts/carts.wxml -->
+<van-toast id="van-toast" />
+<view class="container" wx:key="key" wx:if="{{show}}">
+    <view class="center_con">
+        <van-swipe-cell right-width="{{ 65 }}" wx:for="{{kk}}" wx:key="key">
+            <van-cell-group>
+                <view class="carts_con">
+                    <view class="carts_warpper">
+                        <!-- 商品图片 -->
+                        <view class="catrs_left">
+                            <image src="{{item.pic}}" />
+                        </view>
+                        <!-- 商品描述 -->
+                        <view class="carts_right">
+                            <view class="carts_right_box">
+                                <view class="carts_right_box_title">{{item.name}}</view>
+                                <view class="carts_right_box_del">
+                                    <!-- icon -->
+                                    <van-icon name="delete" size="25" id="{{item.id}}" bindtap="ondel"  data-k="{{item.key}}"/>
+                                </view>
+                            </view>
+                            <!-- 价格 -->
+                            <view class="jiage">
+                                <text>￥{{item.price}}</text>
+                            </view>
+                            <!-- 步进器 -->
+                            <view class="bujinqi">
+                                <!-- <van-stepper value="{{ item.number}}" bind:change="onChange" data-i="{{item.number}}" /> -->
+                                <text class="cl1" bindtap="jian" data-i="{{item.number}}" data-k="{{item.key}}">-</text>
+                                <text>{{item.number}}</text>
+                                <text class="cl2" bindtap="jia" data-i="{{item.number}}" data-k="{{item.key}}">+</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </van-cell-group>
+            <view slot="right" class="van-swipe-cell__right"  bindtap="ondel" data-k="{{item.key}}">
+                删除
+            </view>
+        </van-swipe-cell>
+    </view>
+
+
+    <!-- 底部 -->
+    <view class="footer_con">
+        <view class="footer_warpper">
+            <view class="footer_left">
+                合计：
+                <text>￥ {{allPre}}</text>
+                + 0 积分
+            </view>
+            <view class="footer_right">
+                <text bindtap="jumpq">去结算</text>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="null" wx:else>
+    <image class="nullImg" src="../../icon_png/微信图片_20201130164729.jpg">></image>
+</view>
+<!-- 空状态 -->

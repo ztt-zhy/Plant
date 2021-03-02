@@ -1,0 +1,20 @@
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="全部">
+    <view class="box" wx:for="{{list}}" wx:key="key">
+      <!--  -->
+      <view class="bao">
+        <text class="t1">
+          {{item.orderNumber}}
+          {{item.statusStr}}
+        </text>
+        <image src="{{picc[item.id][0].pic}}" class="iii"></image>
+        <text> {{item.dateClose}}</text>
+      </view>
+
+    </view>
+  </van-tab>
+  <van-tab title="待付款">待付款</van-tab>
+  <van-tab title="待发货">待发货</van-tab>
+  <van-tab title="待收货">待收货</van-tab>
+  <van-tab title="待评价">待评价</van-tab>
+</van-tabs>

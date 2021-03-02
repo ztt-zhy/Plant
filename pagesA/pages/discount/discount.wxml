@@ -1,0 +1,11 @@
+<van-tabs active="a" class="aaa">
+	<van-tab title="可领券 " name="a">🌵 动态口令兑换优惠券
+		<image src="../../../icon_png/333.jpg" class="iii"></image>
+	</van-tab>
+	<van-tab title="已领券" name="b"> 🌿 动态口令兑换优惠券
+		<image src="../../../icon_png/333.jpg" class="iii"></image>
+	</van-tab>
+	<van-tab title="已失效" name="c">🌵 动态口令兑换优惠券
+		<image src="../../../icon_png/333.jpg" class="iii"></image>
+	</van-tab>
+</van-tabs>

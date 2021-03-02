@@ -1,0 +1,24 @@
+/* pages/login/login.wxss */
+.aaa {
+  padding-left: 50rpx;
+  height: 600rpx;
+}
+.btn1{
+  background:rgb(233, 230, 230);
+  color: #467c4b;
+}
+/* 默认不显示 */
+.xinxi {
+  width: 400rpx;
+  height: 400rpx;
+  align-items: center;
+  text-align: center;
+  padding-left: 200rpx;
+}
+
+.xinxi image {
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 40rpx;
+  padding-top: 20rpx;
+}

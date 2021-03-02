@@ -1,0 +1,29 @@
+<!-- 搜索框 -->
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" />
+<!-- 大盒子 -->
+<view class="container">
+    <!-- 左侧栏 -->
+    <view class='nav_left'>
+        <view class="nav_left_items {{ left == item.id ? 'active' : '' }}" wx:for="{{bear}}" wx:key="key"
+            bindtap="switchNav" id="{{item.id}}">
+            {{item.name}}
+        </view>
+    </view>
+    <!-- 右侧栏 -->
+    <view class="nav_right">
+        <view class="nav_right_items" wx:for="{{flower}}" wx:key="key">
+            <!-- 图片区域 -->
+            <view class="pic">
+                <image src="{{item.pic}}" />
+            </view>
+            <!-- 文字区域 -->
+            <view class="zi">
+                <text class="txt1"> {{item.name}}</text>
+                <text class="txt2">已售{{item.shopId}}</text>
+                <text class="txt3">￥{{item.minPrice}}</text>
+            </view>
+            <!-- 购物车 -->
+            <van-icon name="shopping-cart-o" class="car" size="50rpx" bind:click="Sjump" data-id="{{item.id}}"/>
+        </view>
+    </view>
+</view>

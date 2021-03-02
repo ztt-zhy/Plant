@@ -1,0 +1,87 @@
+<!-- 头部 -->
+<view class="z-header">
+	<!-- 頭像 -->
+	<view class="header-img">
+		<image src="../../icon_png/222.png"></image>
+	</view>
+	<!-- 用戶信息 -->
+	<view class="xin">
+		<text>用戶ID：1762561</text>
+		<text>阿彤の小铃铛🔔❀</text>
+	</view>
+</view>
+<!-- 头部 -->
+
+<!-- 充值 -->
+<view class="money">
+	<view class="moneys">
+		<text>0.00</text>
+		<text>余额</text>
+	</view>
+	<view class="moneys">
+		<text>0.00</text>
+		<text>冻结</text>
+	</view>
+	<view class="moneys">
+		<text>0</text>
+		<text>积分</text>
+	</view>
+	<view class="moneys">
+		<text>0</text>
+		<text>成长值</text>
+	</view>
+
+</view>
+<!-- 充值 -->
+
+<!-- 分割线 -->
+<view class="xian"></view>
+
+<!-- 我的订单 -->
+<van-cell title="我的订单" is-link bindtap="jump"/>
+
+<!-- 结算区域 -->
+<van-grid column-num="{{5}}">
+	<van-grid-item icon="pending-payment" text="待付款" />
+	<van-grid-item icon="send-gift-o" text="待发货" />
+	<van-grid-item icon="logistics" text="待收货" />
+	<van-grid-item icon="flower-o" text="待评价" />
+	<van-grid-item icon="after-sale" text="售后" />
+</van-grid>
+<!-- 结算区域 -->
+
+<!-- 优惠买单 -->
+<van-cell title="优惠买单" is-link />
+
+<!-- 资金明细 -->
+<van-cell title="资金明细" is-link />
+<!-- 分割线 -->
+<view class="xian"></view>
+<!-- 成为分销商 -->
+<van-cell title="成为分销商" is-link />
+<!-- 分割线 -->
+<view class="xian"></view>
+<!-- 申请发票 -->
+<van-cell title="申请发票" is-link />
+<!-- 发票记录 -->
+<van-cell title="发票记录" is-link />
+<!-- 分割线 -->
+<view class="xian"></view>
+
+<!-- 收货地址 -->
+<van-cell title="收货地址" is-link />
+<!-- 领券中心 -->
+<van-cell title="领券中心" is-link />
+<!-- 我的收藏 -->
+<van-cell title="我的收藏" is-link />
+
+<!-- 分割线 -->
+<view class="xian"></view>
+<!-- 每日签到 -->
+<van-cell title="每日签到" is-link />
+<!-- 积分券兑换积分 -->
+<van-cell title="积分券兑换积分" is-link />
+<!-- 积分券兑换成长值 -->
+<van-cell title="积分券兑换成长值" is-link />
+<!-- 分割线 -->
+<view class="xian"></view>

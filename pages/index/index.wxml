@@ -1,0 +1,143 @@
+<!-- 轮播界面 -->
+<view class="around">
+	<!-- 放大镜 -->
+	<van-icon name="search" class="find" size="40rpx" />
+	<!-- 搜索框 -->
+	<view class="serch">
+		<input shape="round" background="#fff" placeholder="请输入搜索关键词" />
+	</view>
+	<!-- 轮播小广告-->
+	<swiper autoplay="{{true}}" interval="2500" class="ban" vertical="{{true}}">
+		<swiper-item wx:for="{{pic}}" wx:key="key">
+			<text>🌵隔壁黄老邪购买了两株玉露锦……</text>
+		</swiper-item>
+	</swiper>
+	<!-- 轮播小广告-->
+	<!-- 轮播图-->
+	<swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="2500">
+		<swiper-item wx:for="{{pic}}" wx:key="key">
+			<image src="{{item.picUrl}}"></image>
+		</swiper-item>
+	</swiper>
+	<!-- 轮播图-->
+</view>
+<!-- 轮播界面 -->
+
+<!-- 分享领卷 -->
+<view class="fen" bindtap="gain">
+	<image src="../../icon_png/111.png" ></image>
+</view>
+
+<!-- 通告栏 -->
+<van-notice-bar left-icon="volume-o" text="丰富的多肉品种和相关种植商品，为喜爱多肉的用户提供一个商城" />
+<!-- 九宫格 -->
+<van-grid column-num="5" border="{{false}}" class="jj" >
+	<van-grid-item use-slot wx:for="{{ jiu }}" data-id="{{item.id}}" wx:key="key" bindtap="jumpList">
+		<image style="width:80rpx; height:80rpx " src="{{item.icon}}"></image>
+		<text>{{item.name}}</text>
+	</van-grid-item>
+</van-grid>
+<!-- 九宫格 -->
+
+<!-- 宣传广告 -->
+<view class="banner" bindtap="jump">
+	<image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3418309608,1682444684&fm=26&gp=0.jpg" />
+</view>
+<!-- 广告 -->
+
+<!-- 限时秒杀 -->
+<van-divider contentPosition="center">限时秒杀</van-divider>
+<view class="box">
+	<view class="boxs">
+		<view>
+			<image
+				src="https://bkimg.cdn.bcebos.com/pic/cdbf6c81800a19d898dacce038fa828ba71e467d?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UxODA=,g_7,xp_5,yp_5" />
+		</view>
+		<!-- 文字区域 -->
+		<view class="fbox">
+			<view class="p1">
+				红宝石，景天属和拟石莲花属杂交的多肉，枝条直立无刺，花高心卷边，花瓣RHSN58B色。
+			</view>
+			<view class="p2">
+				<!-- 秒杀 -->
+				<van-count-down use-slot time="{{ time }}" bind:change="onChange">剩余：
+					<text class="item">{{ timeData.hours }}</text>
+					<text class="item">{{ timeData.minutes }}</text>
+					<text class="item">{{ timeData.seconds }}</text>
+				</van-count-down>
+				<!-- 秒杀 -->
+			</view>
+			<view class="p3">
+				<p class="p4">￥13 <span class="sp1">￥25</span> </p>
+				<span class="p5" bindtap="buying"> 立即抢购 </span>
+			</view>
+		</view>
+	</view>
+</view>
+
+<!-- 爆品推荐 -->
+<van-divider contentPosition="center">爆品推荐</van-divider>
+<view class="hotPlant">
+	<!-- 植物 -->
+	<view class="Plant" wx:for="{{baok}}" wx:key="key" bindtap="rabbit">
+		<image src="{{item.pic}}" />
+		<view>{{item.name}}</view>
+		<view class="rrr">￥{{item.minPrice}}</view>
+	</view>
+</view>
+
+<!-- 疯狂砍价 -->
+<view class="xxtime">
+	<h5>疯狂砍价</h5>
+</view>
+<view class="discount">
+	<!-- 图片区域 -->
+	<view class="img1">
+		<image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4179641290,3899263187&fm=26&gp=0.jpg" />
+	</view>
+	<!-- 文字区域 -->
+	<view class="v1">
+		<p class="pp1">
+			喜阳光充足、凉爽干燥的环境，不耐阴，不耐高温高湿。
+		</p>
+		<p class="pp2">
+			有320对染色体,是景天科景天属的多年生多肉植物。
+		</p>
+		<!-- 自定义滑块按钮 -->
+		<van-slider value="{{ currentValue }}" use-button-slot bind:drag="onDrag" active-color="green">
+			<view class="custom-button" slot="button">
+				{{ currentValue }}%
+			</view>
+		</van-slider>
+		<!-- 自定义滑块按钮 -->
+		<p class="pp3"> ￥13<span>￥36</span>
+			<van-tag type="danger">砍价</van-tag>
+		</p>
+
+	</view>
+</view>
+
+<!-- 全民拼团 -->
+<van-divider contentPosition="center">全民拼团</van-divider>
+<view class="discount-all">
+	<image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2006436029,167453514&fm=26&gp=0.jpg"></image>
+	<p>景天科景天属的多年生多肉植物。喜阳光充足、凉爽干燥的环境，不耐阴，不耐高温高湿。有320对染色体，是景天科中染色体数最高的物种。 </p>
+	<p class="p2">木樨景天（Sedum suaveolens Kimnach）</p>
+	<view class="cc">
+		<p class="cc1"> ￥9.9 <span class="cc2">￥34</span>
+			<van-tag type="danger">拼团</van-tag>
+		</p>
+	</view>
+</view>
+
+<!-- 商品列表 -->
+<van-divider contentPosition="center">商品列表</van-divider>
+<!-- 热卖商品植物 -->
+<view class="hotPlant">
+	<view class="Plant" wx:for="{{lieb}}" wx:key="key" catchtap="mostCady" data-id="{{item.id}}">
+		<image src="{{item.pic}}" />
+		<view>{{item.name}}</view>
+		<view class="rrr">￥{{item.minPrice}}</view>
+	</view>
+</view>
+<van-divider wx:if="{{xs}} " contentPosition="center">我可是有底线的（￣。。￣）</van-divider>
